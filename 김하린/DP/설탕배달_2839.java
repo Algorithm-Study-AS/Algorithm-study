@@ -1,3 +1,5 @@
+package DP;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +12,7 @@ import java.io.InputStreamReader;
  * 2. 그렇지 않으면 입력값에 -3을 해주고 카운터를 1 증가 시킨 후 5로 나누도록 반복해준다.
  * 3. 입력값이 음수일 경우 나누어 떨어지 않기 떄문에 -1을 반환한다.
  */
-public class BOJ_2839 {
+public class 설탕배달_2839 {
     static class Solution {
         public int solution(int x) {
             int count = 0;
