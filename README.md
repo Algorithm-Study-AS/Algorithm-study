@@ -15,6 +15,23 @@
 - main에 푸쉬하는 것을 금지합니다(전부 날라갈 위험이 있음!!)
 - 브랜치명은 다음과 같은 규칙을 지켜주세요!! ex) 이름/week-1, kimminwoo/week-1
 - 이슈는 따로 생성하지 않으셔도 됩니다!! 다만 , PR template을 작성하고 카테고리,제목,링크만 제대로 연결시키고 자신의 README에 추가해주세요
+# ❗️ PR 규칙 및 Commit Message 규칙 ❗️
+## Pull Request 예시
+### Week 01 (24.07.12 ~ 24.07.22)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/2578">빙고</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/22856">트리 순회</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2839">설탕 배달</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/9465">스티커</a> | <a href="">🔗</a> |
+<br>
+
+```
+To. Reviewers
+```
+## Commit Message
+[Baekjoon-문제번호] 문제명
+
 # 🎃 벌금
 
 - 온라인으로 진행되는 만큼, 보증금 및 벌금 제도를 도입하려 합니다.
