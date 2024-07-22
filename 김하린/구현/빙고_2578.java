@@ -54,13 +54,13 @@ public class 빙고_2578 {
 
         // 가로 체크
         private void rCheck(int[][] bingo) {
-            for (int i=0; i<5; i++){
+            for (int i = 0; i < 5; i++) {
                 int zeroCnt = 0;
-                for (int j=0; j<5; j++){
-                    if(bingo[i][j] == 0)
-                        zeroCnt ++;
+                for (int j = 0; j < 5; j++) {
+                    if (bingo[i][j] == 0)
+                        zeroCnt++;
                 }
-                if(zeroCnt == 5)
+                if (zeroCnt == 5)
                     count++;
             }
         }

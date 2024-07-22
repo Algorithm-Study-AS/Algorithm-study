@@ -52,18 +52,18 @@ public class 트리순회_22856 {
         }
 
         if(lastInOrder == current) flag = true;
-        if(flag) return;
+        if(flag) return; // 종료
         count ++;
     }
 
     // 중위 순회
     private static void inorder(int current) {
         if(node[current][0] != -1){
-            inorder(node[current][0]);
+            inorder(node[current][0]); // 왼쪽 자식 노드를 재귀적 중위 순회
         }
-        lastInOrder = current;
+        lastInOrder = current; // 현재 노드를 방문 (중위 순회 순서의 가운데)
         if(node[current][1] != -1){
-            inorder(node[current][1]);
+            inorder(node[current][1]); // 오른쪽 자식 노드를 재귀적 중위 순회
         }
     }
 }
