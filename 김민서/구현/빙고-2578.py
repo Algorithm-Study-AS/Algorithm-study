@@ -35,15 +35,19 @@ def solution(board_dict, numbers):
         if bingo >= 3:
             return n + 1
 
-board = [list(map(int, input().split())) for _ in range(5)]
-numbers = []
-board_dict = {} # key: 숫자, value: 위치
+def main():
+    board = [list(map(int, input().split())) for _ in range(5)]
+    numbers = []
+    board_dict = {} # key: 숫자, value: 위치
 
-for _ in range(5):
-    numbers += list(map(int, input().split()))
+    for _ in range(5):
+        numbers += list(map(int, input().split()))
 
-for i in range(5):
-    for j in range(5):
-        board_dict[board[i][j]] = (i, j)
+    for i in range(5):
+        for j in range(5):
+            board_dict[board[i][j]] = (i, j)
 
-print(solution(board_dict, numbers))
+    print(solution(board_dict, numbers))
+
+if __name__ == "__main__":
+    main()

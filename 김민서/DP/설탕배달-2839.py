@@ -30,6 +30,10 @@ def solution_dp(n):
     
     return d[n]
 
-n = int(input())
-# print(solution(n))
-print(solution_dp(n))
+def main():
+    n = int(input())
+    # print(solution(n))
+    print(solution_dp(n))
+
+if __name__ == "__main__":
+    main()

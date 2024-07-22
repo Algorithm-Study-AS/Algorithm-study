@@ -1,8 +1,7 @@
 # 2행 n열의 스티커가 있을 때, 뗄 수 있는 스티커 점수의 최댓값
 # 뗀 스티커의 상하좌우에 있는 스티커는 쓸 수 없다.
 
-def solution(n, sticker):
-
+def solution(n, d):
     if n > 1: # 대각선끼리 더해준다.
         d[0][1] += d[1][0]
         d[1][1] += d[0][0]
@@ -13,10 +12,14 @@ def solution(n, sticker):
     
     return max(d[0][-1], d[1][-1])
 
-T = int(input())
+def main():
+    T = int(input())
 
-for _ in range(T):
-    n = int(input())
-    d = [list(map(int, input().split())) for _ in range(2)]
-    
-    print(solution(n, d))
+    for _ in range(T):
+        n = int(input()) # n열
+        d = [list(map(int, input().split())) for _ in range(2)] # sticker
+        
+        print(solution(n, d))
+
+if __name__ == "__main__":
+    main()
