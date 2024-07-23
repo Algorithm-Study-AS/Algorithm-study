@@ -50,3 +50,12 @@ https://github.com/minwoo1999/baekjoon?tab=readme-ov-file
 | DP |  <a href="https://www.acmicpc.net/problem/9465">스티커</a> | <a href="">🔗</a> |
 <br>
 
+### Week 02 (24.07.22 ~ 24.07.31)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/4396">지뢰찾기</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/22860">폴더 정리(small)</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/17626">Four Squares</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1890">점프</a> | <a href="">🔗</a> |
+<br>
+
