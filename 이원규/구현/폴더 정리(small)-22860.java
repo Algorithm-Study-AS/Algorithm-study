@@ -30,7 +30,10 @@ public class Main {
                 folderMap.put(P, parent);
             }
 
-            Node child = new Node(F, C == 1);
+            Node child = folderMap.get(F);
+            if (child == null) {
+                child = new Node(F, C == 1);
+            }
             parent.children.add(child);
             if (C == 1) { // F가 폴더라면 폴더 구조에 추가
                 folderMap.put(F, child);
@@ -84,4 +87,5 @@ class Node {
  * Node클래스 -> 폴더, 파일 나타냄
  * 파일 종류의 개수는 Set으로 중복 처리
  * 런타임에러 나서 null 처리 추가했는데, 틀렸습니다가 됨..
+ * child도 null처리 하고 통과
  */
