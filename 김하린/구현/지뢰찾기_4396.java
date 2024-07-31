@@ -1,4 +1,4 @@
-package DP;
+package 구현;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
  * 실버 4 - 지뢰 찾기
  * 1. 지뢰, 여는 칸 입력받기
  * 2. 칸 열었을 때 (x) -> 지뢰면 *, 지뢰 아니면 8칸 조사하여 카운트 증가
- * 3. 지뢰 열었을 때 카운트 증가시킨 상태로 지뢰부분 *로 출력해야함
+ * 3. 지뢰 열었을 때 카운트 증가시킨 상태로 지뢰부분 *로 출력해야함.. 지뢰만 출력하면 틀렸습니다 나옴
  */
 public class 지뢰찾기_4396 {
     static char[][] map;
