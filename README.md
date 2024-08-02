@@ -59,3 +59,12 @@ https://github.com/minwoo1999/baekjoon?tab=readme-ov-file
 | DP |  <a href="https://www.acmicpc.net/problem/1890">점프</a> | <a href="">🔗</a> |
 <br>
 
+### Week 03 (24.08.02 ~ 24.08.07)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/1244">스위치 켜고 끄기</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20291">파일 정리</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1010">다리 놓기</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1463">1로 만들기</a> | <a href="">🔗</a> |
+<br>
+
