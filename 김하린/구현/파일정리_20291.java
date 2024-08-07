@@ -9,7 +9,7 @@ import java.util.TreeMap;
 /**
  * 실버 3 - 파일 정리
  * . 기준으로 split 할 때 앞에 // 붙여줘야함
- * 사전순으로 정렬하기 위해 TreeMap 사용
+ * 사전순으로 정렬하기 위해 TreeMap 사용, TreeMap은 자동정렬 해준다는 것 알게됨
  */
 public class 파일정리_20291 {
     public static void main(String[] args) throws IOException {
