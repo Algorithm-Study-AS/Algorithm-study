@@ -68,3 +68,11 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/1463">1로 만들기</a> | <a href="">🔗</a> |
 <br>
 
+### Week 04 (24.08.08 ~ 24.08.14)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20436">ZOAC 3</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20164">홀수 홀릭 호석</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/9655">돌 게임</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2156">포도주 시식</a> | <a href="">🔗</a> |
+<br>
