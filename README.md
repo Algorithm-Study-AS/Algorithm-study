@@ -76,3 +76,12 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/9655">돌 게임</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/2156">포도주 시식</a> | <a href="">🔗</a> |
 <br>
+
+### Week 05 (24.08.15 ~ 24.08.21)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/2606">바이러스</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/1325">효율적인 해킹</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/11399">ATM</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/21758">꿀 따기</a> | <a href="">🔗</a> |
+<br>
