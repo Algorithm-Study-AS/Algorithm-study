@@ -58,8 +58,8 @@ extension=dict()
 N=int(input())
 
 for _ in range(N):
-    file = input().split('.')
-    if file[1] in extension:
+    file = input().split('.') 
+    if file[1] in extension: #확장자 있는지 확인
         extension[file[1]]+=1
     else:
         extension[file[1]]=1
