@@ -85,3 +85,12 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/11399">ATM</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/21758">꿀 따기</a> | <a href="">🔗</a> |
 <br>
+
+### Week 06 (24.08.24 ~ 24.08.30)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16918">봄버맨</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/7569">토마토</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1758">알바생 강호</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1931">회의실 배정</a> | <a href="">🔗</a> |
+<br>
