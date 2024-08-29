@@ -6,7 +6,7 @@ def bombed_(location,R,C):
     bombed=[['O' for _ in range(C)] for _ in range(R)]
     for i in range(R):
         for j in range(C):
-            if location[i][j]=='O':
+            if location[i][j]=='O': #폭탄 설치되어 있으면 주변 터뜨림
                 bombed[i][j]='.'
                 for dx, dy in (0, 1), (0, -1), (1, 0), (-1, 0):
                     x, y = i+dx, j+dy
@@ -21,15 +21,15 @@ def print_map(map):
 def graph(R:int,C:int,N:int):
     bomb_map=[list(input().strip()) for _ in range(R)]
 
-    if N == 1:
+    if N == 1: #처음 그대로 출력
         print_map(bomb_map)
-    elif N % 2 == 0:   
+    elif N % 2 == 0: #모든 맵에 폭탄
         for i in range(R):
             print('O' * C)
-    elif N % 4 == 3:
+    elif N % 4 == 3: #주변 터뜨린 맵 출력
         bombed_map=bombed_(bomb_map,R,C)
         print_map(bombed_map)
-    elif N % 4 == 1:
+    elif N % 4 == 1: #한번 더 터진 맵 출력
         bombed_map=bombed_(bomb_map,R,C)
         bombed_map=bombed_(bombed_map,R,C)
         print_map(bombed_map)

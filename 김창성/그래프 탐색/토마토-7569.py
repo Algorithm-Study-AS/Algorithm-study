@@ -1,6 +1,9 @@
+#토마토에 인접한 곳 (위, 아래, 왼쪽, 오른쪽, 앞, 뒤)가 익을 때, 
+#며칠 후에 다 익는지
+
 from collections import deque
 
-def input_array(M,N,H):
+def input_array(M,N,H): #입력 저장
     array=[]
     for i in range(H):
         layer=[]
@@ -22,10 +25,10 @@ def bfs(array, M,N,H):
 
     while visited:
         search=deque()
-        while visited:
+        while visited: #다음 인접한 곳 위치 반환
             search.append(visited.pop())
         
-        while search:
+        while search: #인접한 곳 익히기
             k, i, j=search.pop()
             for x,y,z in (0,1,0),(0,-1,0),(1,0,0),(-1,0,0),(0,0,1),(0,0,-1):
                 nx,ny,nz=i+x,j+y,k+z
@@ -33,16 +36,14 @@ def bfs(array, M,N,H):
                     #print(nz,",",nx,",",ny,"=", array[nz][nx][ny])
                     visited.append((nz,nx,ny))
                     array[nz][nx][ny]='1'
-        bfs_count+=1
+        bfs_count+=1 #인접한 곳 익히고 count
     
-    for k in range(H):
+    for k in range(H): # 익지 않은 토마토가 남아있으면 -1 반환
         for i in range(N):
             for j in range(M):
                 if array[k][i][j] == '0':
-                    return -1  # 익지 않은 토마토가 남아있으면 -1 반환
-
+                    return -1  
     return bfs_count-1
-
 
 
 def graph(M,N,H):
