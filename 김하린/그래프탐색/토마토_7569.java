@@ -6,7 +6,9 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+/**
+ * 골드 5 - 토마토
+ */
 public class 토마토_7569 {
     static int M, N, H;
     static int[][][] map;
