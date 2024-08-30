@@ -4,8 +4,7 @@
 
 from collections import deque
 
-def bfs():
-    global m, n, h, tomatoes
+def bfs(m, n, h, tomatoes):
 
     dz = [-1, 1, 0, 0, 0, 0]
     dx = [0, 0, -1, 1, 0, 0]
@@ -45,8 +44,6 @@ def bfs():
     return max_days - 1
         
 def main():
-    global m, n, h, tomatoes
-    
     m, n, h = map(int, input().split())
     tomatoes = []
     
@@ -56,7 +53,7 @@ def main():
             temp.append(list(map(int, input().split())))
         tomatoes.append(temp)
     
-    print(bfs())
+    print(bfs(m, n, h, tomatoes))
 
 if __name__ == "__main__":
     main()
