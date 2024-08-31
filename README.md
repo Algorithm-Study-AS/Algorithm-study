@@ -94,3 +94,12 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/1758">알바생 강호</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/1931">회의실 배정</a> | <a href="">🔗</a> |
 <br>
+
+### Week 07 (24.08.31 ~ 24.09.04)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/2667">단지번호붙이기</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/14502">연구소</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/13305">주유소</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/2212">센서</a> | <a href="">🔗</a> |
+<br>
