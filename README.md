@@ -103,3 +103,12 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/13305">주유소</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/2212">센서</a> | <a href="">🔗</a> |
 <br>
+
+### Week 08 (24.09.05 ~ 24.09.11)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/11725">트리의 부모 찾기</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/13549">숨바꼭질 3</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1541">잃어버린 괄호</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/13164">행복 유치원</a> | <a href="">🔗</a> |
+<br>
