@@ -12,7 +12,7 @@ def greedy(N,C,point):
 
     
     for i in range(extention):
-        if distance[i]==0:
+        if distance[i]==0: #센서 간 거리가 없을 때는 넘어가기
             extention+=1
         total_distance+=distance[i]
     return total_distance
