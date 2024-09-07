@@ -2,6 +2,7 @@
 # 수빈이가 동생을 찾을 수 있는 가장 빠른 시간이 몇 초 후인지 구하는 프로그램
 # 1초 후에 X-1 또는 X+1로, 0초 후에 2*X의 위치로 이동 가능
 
+#visited 안쓰면 시간초과, 연산순서 안지키면 틀림
 from collections import deque
 
 def graph(a,b):
@@ -21,7 +22,8 @@ def graph(a,b):
         #현재 값에서 -1,+1,*2 로 이동할 때 연산횟수 갱신
         #순서가 중요한 이유 
         #1. *2가 이동연산이 작기 때문에 먼저 갱신
-        #2. 동생의 위치가 왼쪽에 있을 때는 -1로만 찾을 수 있음
+        #2. -1를 한 후 *2했을 때 이동연산이 작음
+        #   동생의 위치가 왼쪽에 있을 때는 -1로만 찾을 수 있음
         if 0<=current_num*2<100001 and visited[current_num*2]==False:
             que.appendleft(current_num*2)
             count[current_num*2]=count[current_num]
