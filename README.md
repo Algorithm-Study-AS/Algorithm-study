@@ -112,3 +112,13 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/1541">잃어버린 괄호</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/13164">행복 유치원</a> | <a href="">🔗</a> |
 <br>
+
+### Week 09 (24.09.12 ~ 24.09.18)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/1260">DFS와 BFS</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16234">인구 이동</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/2217">로프</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1092">배</a> | <a href="">🔗</a> |
+<br>
+
