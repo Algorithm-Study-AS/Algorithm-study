@@ -7,7 +7,7 @@ def make1():
     array=[0]*1000001
 
     for i in range(2,1000001):
-        array[i]=array[i-1]+1 #빼기 1처리
+        array[i]=array[i-1]+1 #빼기 1 일때 연산+1
         if(i%2==0):
             # /연산 사용하면 float처리됨
             array[i]=min(array[int(i/2)]+1,array[i]) 
