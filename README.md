@@ -122,3 +122,11 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/1092">배</a> | <a href="">🔗</a> |
 <br>
 
+### Week 10 (24.09.26 ~ 24.10.02)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/15787">기차가 어둠을 헤치고 은하수를</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/1913">달팽이</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2579">계단 오르기</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/11053">가장 긴 증가하는 부분 수열</a> | <a href="">🔗</a> |
+<br>
