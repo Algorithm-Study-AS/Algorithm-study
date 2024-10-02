@@ -1,3 +1,5 @@
+#수열 A가 주어졌을 때, 가장 긴 증가하는 부분 수열을 구하는 프로그램을 작성하시오.
+
 if __name__ == "__main__":
     N = int(input())
     array=list(map(int,input().split()))
