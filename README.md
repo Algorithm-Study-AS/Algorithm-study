@@ -130,3 +130,12 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/2579">계단 오르기</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/11053">가장 긴 증가하는 부분 수열</a> | <a href="">🔗</a> |
 <br>
+
+### Week 11 (24.10.03 ~ 24.10.09)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/12933">오리</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/16926">배열 돌리기1</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/22869">징검다리 건너기 (small)</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/15486">퇴사2</a> | <a href="">🔗</a> |
+<br>
