@@ -139,3 +139,12 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/22869">징검다리 건너기 (small)</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/15486">퇴사2</a> | <a href="">🔗</a> |
 <br>
+
+### Week 12 (24.10.10 ~ 24.10.16)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/17413">단어 뒤집기2</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/14719">빗물</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/17626">Four Squares</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2294">동전2</a> | <a href="">🔗</a> |
+<br>
