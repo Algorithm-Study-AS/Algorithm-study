@@ -3,7 +3,9 @@ package 구현;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/**
+ * 실버 2 - 오리
+ */
 public class 오리_12933 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
