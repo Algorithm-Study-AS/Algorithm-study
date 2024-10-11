@@ -1,4 +1,4 @@
-
+#열 A에서 3번째 큰 값
 
 if __name__=="__main__":
     N=int(input())
