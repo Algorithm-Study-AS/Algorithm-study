@@ -145,6 +145,6 @@ https://github.com/tony9402/baekjoon
 | :------: | :---: | :--: |
 | 구현 |  <a href="https://www.acmicpc.net/problem/17413">단어 뒤집기2</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/14719">빗물</a> | <a href="">🔗</a> |
-| DP |  <a href="https://www.acmicpc.net/problem/17626">Four Squares</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/11727">2×n 타일링 2</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/2294">동전2</a> | <a href="">🔗</a> |
 <br>
