@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * 동전 2 - 골드 5
+ * 골드 5 - 동전 2
  * 가치 합 k, 동전 개수 최소
  * dp에 동전 개수 넣기
  * i = 1 -> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15

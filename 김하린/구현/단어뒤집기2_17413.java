@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 단어 뒤집기 2 - 실버 3
+ * 실버 3 - 단어 뒤집기 2
  */
 public class 단어뒤집기2_17413 {
     public static void main(String[] args) throws IOException {
