@@ -148,3 +148,12 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/11727">2×n 타일링 2</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/2294">동전2</a> | <a href="">🔗</a> |
 <br>
+
+### Week 13 (24.10.17 ~ 24.10.23)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20546">🐜 기적의 매매법 🐜</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/22859">HTML 파싱</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/2670">연속부분최대곱</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1106">호텔</a> | <a href="">🔗</a> |
+<br>
