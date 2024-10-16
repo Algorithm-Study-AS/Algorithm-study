@@ -7,6 +7,7 @@ import java.nio.Buffer;
 import java.util.Arrays;
 
 /**
+ * 2×n 타일링 2 - 실버 3
  * 2*1 : 1
  * 2*2 : 3
  * 2*3 : 5

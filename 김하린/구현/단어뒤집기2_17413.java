@@ -3,27 +3,40 @@ package 구현;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Stack;
-import java.util.StringTokenizer;
 
 /**
- * <int><max>2147483647<long long><max>9223372036854775807
+ * 단어 뒤집기 2 - 실버 3
  */
 public class 단어뒤집기2_17413 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-//        StringTokenizer st = new StringTokenizer(br.readLine());
-        String str = br.readLine();
-        Stack<String> stack = new Stack<>();
-        String[] arr1 = str.split(" ");
-        String[] arr2 = str.split(">");
-        System.out.println(Arrays.toString(arr1));
-        System.out.println(Arrays.toString(arr2));
-        for (char ch : str.toCharArray()){
-            if (ch == '<'){
+        StringBuilder result = new StringBuilder();
+        String input = br.readLine();
+        StringBuilder tmp = new StringBuilder(); // 임시 변수
+        boolean insideTag = false; // 태그 여부 확인
 
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            // 태그 처리
+            if (c == '<') {
+                result.append(tmp.reverse()); // 이전 단어 처리
+                tmp.setLength(0);
+                insideTag = true;
+                result.append(c);
+            } else if (c == '>') {
+                insideTag = false;
+                result.append(c);
+            } else if (insideTag) result.append(c);
+            // !태그 처리
+            else {
+                if (c == ' ') {
+                    result.append(tmp.reverse());
+                    tmp.setLength(0);
+                    result.append(' ');
+                } else tmp.append(c);
             }
         }
+        result.append(tmp.reverse());
+        System.out.println(result);
     }
 }
