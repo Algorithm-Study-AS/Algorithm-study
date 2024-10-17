@@ -4,9 +4,7 @@
 # 돌을 한번 건너갈 때마다 쓸 수 있는 힘은 최대 K이다.
 
 def stone(array,N,K):
-    reslut=[1001]*N
     visited=[False]*N
-
     visited[0]=True
 
     for j in range(1,N):
@@ -15,6 +13,7 @@ def stone(array,N,K):
 
             if visited[i]==True and power<=K:
                 visited[j]=True
+                break
 
     if visited[N-1]:
         print("YES")
