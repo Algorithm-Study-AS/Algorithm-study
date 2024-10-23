@@ -19,7 +19,7 @@ if __name__ == "__main__":
         if line[i] == "<":
             open_tag, i= tag(line, i)
             
-            if open_tag == "<div title=":
+            if open_tag == "<div title=": #타이틀값 출력
                 while line[i] != "\"":
                     i+=1
                 i+=1 #title 시작 위치
@@ -29,7 +29,7 @@ if __name__ == "__main__":
                     i+=1
                 print()
 
-            elif open_tag == "<p>":
+            elif open_tag == "<p>": 
                 temp = ""#p태그 내용 저장
 
                 while True: 
