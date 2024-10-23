@@ -7,10 +7,11 @@ if __name__=="__main__":
 
     total=0
     for i in range(1,W-1):
-        L=max(array[:i])
-        R=max(array[i+1:])
+        L=max(array[:i]) #왼쪽에서 가장 큰 높이
+        R=max(array[i+1:]) #오른쪽에서 가장 큰 높이
          
         value=min(R,L)-array[i]
+        
         if value>0:
             total+=min(R,L)-array[i]
     
