@@ -24,5 +24,5 @@ if __name__ == "__main__":
     for _ in range(N):
         time, pay = map(int,input().split())
         array.append((time,pay))
-    
+
     resignation(array,N)
