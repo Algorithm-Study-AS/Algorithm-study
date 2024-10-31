@@ -157,3 +157,12 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/2670">연속부분최대곱</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/1106">호텔</a> | <a href="">🔗</a> |
 <br>
+
+### Week 09 (24.10.31 ~ 24.11.05)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/14940">쉬운 최단거리</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/17836">공주님을 구해라!</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/22858">원상 복구 (small)</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20207">달력</a> | <a href="">🔗</a> |
+<br>
