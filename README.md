@@ -158,7 +158,7 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/1106">호텔</a> | <a href="">🔗</a> |
 <br>
 
-### Week 09 (24.10.31 ~ 24.11.05)
+### Week 14 (24.10.31 ~ 24.11.05)
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/14940">쉬운 최단거리</a> | <a href="">🔗</a> |
