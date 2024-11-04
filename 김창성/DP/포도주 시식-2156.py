@@ -1,24 +1,37 @@
-#연속 3개이상 선택불가 - 최대합 구하기
-#앞의 3개 고려해서 생각
-#예외처리하기
+#문제
+#포두주 있으면 모두 마시고, 연속으로 3잔을 마실 수 없다.
+#최대로 먹는 경우 계산
 
-N=int(input())
-wine=[0]*N
-wine_DP=[0]*N
+#제한: 연산 2억, 메모리 32000
 
-for i in range(N):
-    wine[i]=int(input())
+#입력: 1 <= 잔의개수(N) <= 10,000, 0 <= 포도주의양 <=1,000
 
-if N>=1:
-    wine_DP[0]=wine[0]
-if N>=2:
-    wine_DP[1]=wine[0]+wine[1]
-if N>=3:
-    wine_DP[2]=max(wine_DP[0]+wine[2],wine[1]+wine[2],wine_DP[1])
-# wine_DP[3]=max(wine_DP[1]+wine[3],wine_DP[0]+wine[2]+wine[3],wine_DP[2])
-# wine_DP[4]=max(wine_DP[2]+wine[4],wine_DP[1]+wine[3]+wine[4],wine_DP[3])
-if N>3:
-    for i in range(3,N):
-        wine_DP[i]=max(wine_DP[i-2]+wine[i],wine_DP[i-3]+wine[i-1]+wine[i],wine_DP[i-1])
-#print(wine_DP)
-print(wine_DP[N-1])
+#출력: 포도주 최대 양
+
+#풀이 
+# 3일때, 1,2 / 1,3 / 2,3
+# 4일때, 2번째까지 최대값 + 4번째 / 1번째까지 최대값 + 3,4번째 / 3번째까지 최대값
+
+def DP(N, glasses):
+    result[1] = glasses[1]
+
+    if N >= 2:
+        result[2] = glasses[1] + glasses[2]
+    if N >= 3:
+        result[3] = max(result[2], glasses[1]+glasses[3],glasses[2]+glasses[3])
+    if N > 3:
+        for i in range(4,N+1):
+            result[i] = max(result[i-2]+glasses[i],result[i-3]+glasses[i-1]+glasses[i],result[i-1])
+
+    return result[N]
+
+
+if __name__ == "__main__":
+    N = int(input())
+    glasses = [0] * (N+1)
+    result = [0] * (N+1)
+
+    for i in range(1,N+1):
+        glasses[i] = int(input())
+
+    print(DP(N, glasses))
