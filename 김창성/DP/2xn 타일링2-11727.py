@@ -10,6 +10,7 @@ def DP(N):
         
         for i in range(3,N+1):
             array[i]=array[i-1]+(2*array[i-2])
+    
     print(array[N]%10007)
 
 
