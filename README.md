@@ -158,7 +158,7 @@ https://github.com/tony9402/baekjoon
 | DP |  <a href="https://www.acmicpc.net/problem/1106">호텔</a> | <a href="">🔗</a> |
 <br>
 
-### Week 14 (24.10.31 ~ 24.11.05)
+### Week 14 (24.10.31 ~ 24.11.06)
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/14940">쉬운 최단거리</a> | <a href="">🔗</a> |
@@ -166,3 +166,13 @@ https://github.com/tony9402/baekjoon
 | 구현 |  <a href="https://www.acmicpc.net/problem/22858">원상 복구 (small)</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/20207">달력</a> | <a href="">🔗</a> |
 <br>
+
+### Week 15 (24.11.07 ~ 24.11.13)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16973">직사각형 탈출</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16918">봄버맨</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21608">상어 초등학교</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/5766">할아버지는 유명해!</a> | <a href="">🔗</a> |
+<br>
+
