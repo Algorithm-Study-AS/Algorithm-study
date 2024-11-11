@@ -2,34 +2,37 @@
 #최대의 꿀의 양을 출력한다.
 #벌이 시작한 장소에서는 어떤 벌도 꿀을 딸 수 없다.
 
+#풀이
+#꿀통의 위치 (왼쪽, 오른쪽, 가운데)
+#누적 합에 벌의 위치의 값 - , 꿀통의 위치는 두번 +
+
 def greedy():
     N=int(input())
-    P=[0]*N
-    S=[0]*N
+    amount=[0]*N #누적합을 나타내는 배열
 
-    P=list(map(int,input().split()))
+    array=list(map(int,input().split()))
 
-    snow=0
+    temp=0
     for i in range(N): #누적합 구하기
-        snow+=P[i]
-        S[i]=snow
-    #print(S)
+        temp+=array[i]
+        amount[i]=temp
+    print(amount)
 
-    Max=0
+    max_value=0
     for i in range(1,N-1): 
         #꿀통이 오른쪽
-        r = S[N-1] - P[0] - P[i] + (S[N-1] - S[i])
+        r = amount[N-1] - array[0] - array[i] + (amount[N-1] - amount[i])
     
         #꿀통이 왼쪽
-        l = S[N-1] - P[N-1] - P[i] + (S[i-1])
+        l = amount[N-1] - array[N-1] - array[i] + amount[i-1]
         
-        Max = max(r, l, Max)
+        max_value = max(r, l, max_value)
    
     #꿀통이 가운데
-    total=sum(P)-P[0]-P[N-1] 
+    total=sum(array)-array[0]-array[N-1] 
     for i in range(1,N-1):
-        Max=max(Max,total+P[i])
-    print(Max)
+        max_value=max(max_value,total+array[i])
+    print(max_value)
 
 
 if __name__=="__main__":
