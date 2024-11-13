@@ -71,14 +71,14 @@ def solution(n, students, love):
     return satisfaction
     
 def main():
-    n = 3#int(input())
-    students = [4, 3, 9, 8, 7, 1, 6, 5, 2]
-    love = [[2, 5, 1, 7], [1, 9, 4, 5], [8, 1, 2, 3], [1, 9, 3, 4], [2, 3, 4, 8], [9, 2, 5, 7], [5, 2, 3, 4], [1, 9, 2, 8], [9, 3, 1, 4]]
+    n = int(input())
+    students = []
+    love = []
     
-    # for _ in range(n*n):
-    #     temp = list(map(int, input().split()))
-    #     students.append(temp[0])
-    #     love.append(temp[1:])
+    for _ in range(n*n):
+        temp = list(map(int, input().split()))
+        students.append(temp[0])
+        love.append(temp[1:])
 
     print(solution(n, students, love))
 
