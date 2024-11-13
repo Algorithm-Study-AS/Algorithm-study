@@ -176,3 +176,11 @@ https://github.com/tony9402/baekjoon
 | 구현 |  <a href="https://www.acmicpc.net/problem/5766">할아버지는 유명해!</a> | <a href="">🔗</a> |
 <br>
 
+### Week 16 (24.11.14 ~ 24.11.20)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/18513">샘터</a> | <a href="">🔗</a> |
+| 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16174">점프왕 쩰리 (Large)</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/2877">4와 7</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/9081">단어 맞추기</a> | <a href="">🔗</a> |
+<br>
