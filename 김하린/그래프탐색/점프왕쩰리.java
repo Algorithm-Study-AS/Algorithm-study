@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
  * 실버 1 - 점프왕 쩰리 (Large)
  */
 public class 점프왕쩰리 {
+
     static int n;
     static int[][] board;
     static int[] dx = {0, 1};
