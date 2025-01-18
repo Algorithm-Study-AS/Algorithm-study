@@ -185,11 +185,19 @@ https://github.com/tony9402/baekjoon
 | 구현 |  <a href="https://www.acmicpc.net/problem/9081">단어 맞추기</a> | <a href="">🔗</a> |
 <br>
 
-### Week 17 (24.12.16 ~ 24.11.22)
+### Week 17 (24.12.16 ~ 24.12.22)
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/13565">침투</a> | <a href="">🔗</a> |
 | 그래프 탐색 |  <a href="https://www.acmicpc.net/problem/16928">뱀과 사다리 게임</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/10703">유성</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/2469">사다리 타기</a> | <a href="">🔗</a> |
+<br>
+
+### Week 18 (25.01.13 ~ 25.01.19)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/11508">2+1 세일</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/20300">서강근육맨</a> | <a href="">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/20365">블로그2</a> | <a href="">🔗</a> |
 <br>
