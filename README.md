@@ -200,4 +200,5 @@ https://github.com/tony9402/baekjoon
 | 그리디 |  <a href="https://www.acmicpc.net/problem/11508">2+1 세일</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/20300">서강근육맨</a> | <a href="">🔗</a> |
 | 그리디 |  <a href="https://www.acmicpc.net/problem/20365">블로그2</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/14728">벼락치기</a> | <a href="">🔗</a> |
 <br>
